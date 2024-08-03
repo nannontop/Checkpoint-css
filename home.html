@@ -8,64 +8,61 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
     </style>
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.all.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "fLn5LsIrQdpJRc5PY",
+        });
+      })();
+    </script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="Navbar">
-      <h3><a class="Home" href="./home.html">Home</a></h3>
-      <h3><a href="./services.html">Services</a></h3>
-      <h3><a href="./studytips.html">Study Tips and Resources</a></h3>
-      <h3><a href="./about me.html">About me</a></h3>
-      <h3><a href="./contact.html">Contact</a></h3>
-    </div>
-    <div class="container">
-      <div class="image">
-        <img src="./Picture.jpg" alt="picture of a girl in digital art" />
+    <header>
+      <div class="brand">
+        <h2>Bella Donna</h2>
+        <h5>-Since 2013-</h5>
       </div>
-      <main>
-        <h1>Hello I'm</h1>
-        <br /><br /><br /><br />
-        <h1>NADINE ZIDANI</h1>
-        <br /><br /><br /><br />
-        <h1>aka-nanno</h1>
-        <h1>Student and Web developer</h1>
-      </main>
-    </div>
-    <div class="idk">
-      <h1>Welcome to Nanno's website</h1>
-    </div>
-    <!-- <br /><br /><br /><br /><br /><br /><br /> -->
-    <div class="end">
-      <h3>Where I will teach you how to study by yourself!!</h3>
-    </div>
-    <br /><br />
-    <div class="idk2">
-      <h1>I can help you by</h1>
-    </div>
-    <br />
-    <div class="cards">
-      <div class="card">
-        <h3><a href="./studytips.html"> Giving Study Tips</a></h3>
+      <div class="Navbar">
+        <h3><a class="Home" href="./home.html">Home</a></h3>
+        <h3><a href="./about me.html">About us</a></h3>
+        <h3><a href="./services.html">Services</a></h3>
+        <h3><a href="./contact.html">Contact us</a></h3>
       </div>
-      <div class="card">
-        <h3><a href="./studytips.html#resources">Providing Study Resources</a></h3>
-      </div>
-      <div class="card">
-        <h2>
-          <h3><a href="./services.html">Other Services</a></h3>
-        </h2>
-      </div>
+    </header>
+    <div class="image">
+      <img src="./home.png" alt="" />
     </div>
-    <br /><br /><br /><br /><br /><br />
+    <div class="button1">
+      <h2><a href="./about me.html">Discover our spa</a></h2>
+      <a class="fancy" href="#" id="ouvrirFormulaireRendezVous">
+        <span class="top-key"></span>
+        <span class="text">Make an appointment</span>
+        <span class="bottom-key-1"></span>
+        <span class="bottom-key-2"></span>
+      </a>
+    </div>
 
-    <footer>
-      <h1>Your opinion matters</h1>
-      <br />
-      <input required placeholder="Please comment" type="text" />
-      <br />
-      <button><a href="./contact.html">Send</a></button>
-      <br />
-      &copy;
-      <h3>Copyright<u>Nadine Zidani</u></h3>
+    <footer
+      style="
+        background-color: black;
+        color: white;
+        padding: 50px;
+        margin-top: 300px;
+      "
+    >
+      <p>© 2024 Bella Donna Spa</p>
     </footer>
   </body>
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="./sweetalert.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

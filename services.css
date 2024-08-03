@@ -1,91 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+BE+VLG:wght@100..400&display=swap");
 * {
-  padding: 0%;
-  margin: 0%;
-}
-body {
-  height: 100%;
+  padding: 0;
   margin: 0;
-}
-
-/* .Home{
-    color: rgb(255, 0, 0);
-  } */
-.services {
-  display: flex;
-  gap: 30px;
-  justify-content: space-around;
-  color: rgb(0, 0, 0);
-  overflow: none;
-  justify-content: space-between;
-}
-
-.service {
-  padding: 30px;
-  /* border-radius: 50%;
-  border: 2px solid black; */
-  transition: 0.5s;
-}
-.service:hover {
-  background-color: rgb(255, 192, 202);
-  scale: 1.3;
-  cursor: pointer;
-}
-main {
-  font-family: "Lora", serif;
-}
-.lol {
-  display: flex;
-  justify-content: center;
+  box-sizing: border-box;
 }
 body {
-  background: rgb(255, 255, 255);
-
-  color: rgb(120, 120, 120);
-}
-footer {
-  margin-top: 20px;
-  background-color: antiquewhite;
-}
-
-footer input[type="text"] {
-  width: 80%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ad1457;
-  border-radius: 5px;
-}
-
-footer button {
-  background-color: #ad1457;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-footer button:hover {
-  background-color: #880e4f;
-}
-input {
-  height: 80px;
-  width: 200px;
-}
-.nanno {
-  display: flex;
-  justify-content: center;
+  height: 100vh;
 }
 .Navbar {
-  background-color:pink; 
   padding: 10px;
   text-align: center;
+  /* background-color: antiquewhite;    just to check */
+  /* margin-bottom: 200px;
+  font-family: Libre "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 }
+
 .Navbar h3 {
   display: inline;
-  margin: 0 15px;
+  margin: 15px;
 }
 .Navbar a {
-  color: #fff;
+  color: #6f2a2a;
   text-decoration: none;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.brand {
+  color: #632323;
+  text-decoration: none;
+  font-weight: bold;
+  padding: -20px;
+  text-align: center;
+  /* font-size: larger; */
+  font-family: "Playwrite BE VLG", cursive;
+  /* background-color: aqua; */
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.card {
+  flex: 0 0 calc(50% - 30px);
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: 0.5s;
+  text-align: left;
+  font-size: auto;
+}
+
+/* .card:hover {
+  background-color: rgb(255, 176, 202);
+  transform: scale(1.3);
+  cursor: pointer;
+  color: blueviolet;
+} */
+.card img {
+  height: 300px;
+  width: 450px;
+}
+#more {
+  display: none;
+}
+main {
+  text-align: center;
+  font-family: "Playfair Display", serif;
 }
